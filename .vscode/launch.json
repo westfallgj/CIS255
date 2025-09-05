@@ -1,0 +1,147 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "type": "java",
+        "name": "Project2",
+        "request": "launch",
+        "mainClass": "Project2",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "CircumferenceCalc",
+        "request": "launch",
+        "mainClass": "CircumferenceCalc",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "ConvertTemp",
+        "request": "launch",
+        "mainClass": "ConvertTemp",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "VolumeConeCalc",
+        "request": "launch",
+        "mainClass": "VolumeConeCalc",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "VolumeBoxCalc",
+        "request": "launch",
+        "mainClass": "VolumeBoxCalc",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "ConvertWeight",
+        "request": "launch",
+        "mainClass": "ConvertWeight",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "name": "Python Debugger: Current File",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal"
+    },
+    {
+        "type": "java",
+        "name": "Current File",
+        "request": "launch",
+        "mainClass": "${file}"
+    },
+    {
+        "type": "java",
+        "name": "Hw1Notes1",
+        "request": "launch",
+        "mainClass": "Hw1Notes1",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "Hw1Notes2",
+        "request": "launch",
+        "mainClass": "Hw1Notes2",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "Hw1Notes3",
+        "request": "launch",
+        "mainClass": "Hw1Notes3",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "Hw1Notes4",
+        "request": "launch",
+        "mainClass": "Hw1Notes4",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "Project1Notes1",
+        "request": "launch",
+        "mainClass": "Project1Notes1",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "Project1Notes2",
+        "request": "launch",
+        "mainClass": "Project1Notes2",
+        "projectName": "CIS255_6a18dd83",
+        "args": [
+            "Java"
+        ]
+    },
+    {
+        "type": "java",
+        "name": "Project1Notes3",
+        "request": "launch",
+        "mainClass": "Project1Notes3",
+        "projectName": "CIS255_6a18dd83",
+        "args": [
+            "Introduction to Java",
+            "Advanced Java"
+        ]
+    },
+    {
+        "type": "java",
+        "name": "Project1Program1",
+        "request": "launch",
+        "mainClass": "Project1Program1",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "Project1Program2",
+        "request": "launch",
+        "mainClass": "Project1Program2",
+        "projectName": "CIS255_6a18dd83",
+        "args": [
+            "George Westfall"
+        ]
+    },
+    {
+        "type": "java",
+        "name": "Quest1",
+        "request": "launch",
+        "mainClass": "Quest1",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "Quest2",
+        "request": "launch",
+        "mainClass": "Quest2",
+        "projectName": "CIS255_6a18dd83"
+    }
+]
+}

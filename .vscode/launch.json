@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "YourWeight",
+        "request": "launch",
+        "mainClass": "YourWeight",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
         "name": "Project2",
         "request": "launch",
         "mainClass": "Project2",

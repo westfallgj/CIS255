@@ -3,6 +3,27 @@
   "configurations": [
     {
         "type": "java",
+        "name": "UpDown",
+        "request": "launch",
+        "mainClass": "UpDown",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "NoLower",
+        "request": "launch",
+        "mainClass": "NoLower",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "Wipeout",
+        "request": "launch",
+        "mainClass": "Wipeout",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
         "name": "YourWeight",
         "request": "launch",
         "mainClass": "YourWeight",

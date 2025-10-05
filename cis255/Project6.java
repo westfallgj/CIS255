@@ -13,11 +13,14 @@ import java.util.Scanner;
 public class Project6 {
         public static void main(String[] args) {
 
-            // Hard
-            Scanner in = new Scanner(System.in);
+            // init variables
             int alpha, beta;
             double xray, yankee, zebra;
 
+            // grab a scanner
+            Scanner in = new Scanner(System.in);
+
+            // gather data
             System.out.print("Enter an a double: ");
             xray = in.nextDouble();
 
@@ -33,15 +36,18 @@ public class Project6 {
             System.out.print("Enter second integer: ");
             beta = in.nextInt();
 
+            // call min method
             min(xray, yankee, zebra);
+            // call average method
             average(alpha, beta);
 
+            //close scanner
             in.close();
     }
     
     public static void min(double a, double b, double c) {
 
-        // using hte math library to cut down on coding
+        // using the math library to cut down on coding
         double minimum = Math.min(a, b);
         minimum = Math.min(minimum, c);
 
@@ -51,6 +57,7 @@ public class Project6 {
 
     public static void average(int a, int b) {
 
+        // same average method from homework
         double average = (a + b) / 2.0;
 
         System.out.println("The average is " + average);

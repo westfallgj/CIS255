@@ -3,6 +3,20 @@
   "configurations": [
     {
         "type": "java",
+        "name": "Project6",
+        "request": "launch",
+        "mainClass": "Project6",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "Homework6Example",
+        "request": "launch",
+        "mainClass": "Homework6Example",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
         "name": "UpDown",
         "request": "launch",
         "mainClass": "UpDown",

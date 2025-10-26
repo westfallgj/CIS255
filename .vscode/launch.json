@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "ArrayMethods",
+        "request": "launch",
+        "mainClass": "ArrayMethods",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
         "name": "Project6",
         "request": "launch",
         "mainClass": "Project6",

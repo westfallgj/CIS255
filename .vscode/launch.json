@@ -3,6 +3,41 @@
   "configurations": [
     {
         "type": "java",
+        "name": "Cat",
+        "request": "launch",
+        "mainClass": "Cat",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "Television",
+        "request": "launch",
+        "mainClass": "Television",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "ExampleHmWk9Q3",
+        "request": "launch",
+        "mainClass": "ExampleHmWk9Q3",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "ExampleHmWk9Q2",
+        "request": "launch",
+        "mainClass": "ExampleHmWk9Q2",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "Homework8Notes",
+        "request": "launch",
+        "mainClass": "Homework8Notes",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
         "name": "ArrayMethods",
         "request": "launch",
         "mainClass": "ArrayMethods",

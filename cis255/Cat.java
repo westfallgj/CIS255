@@ -50,8 +50,11 @@ public class Cat {
         this.birthday = birthday;
     }
 
-    public Date getBirthday()  {
-        return this.birthday;
+    public String getBirthday()  {
+
+        SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyy");    
+    
+        return formatter.format(this.birthday);
     }
     
     public void setWeight(double weight)  {
@@ -95,12 +98,16 @@ public class Cat {
     public static void main(String[] args)  {
 
         Date catsDate = new GregorianCalendar(2010, 03, 15).getTime();
+
+
         Cat aCat = new Cat();
 
         Cat bCat = new Cat("Red", "Junk Yard", catsDate, 20);
 
         System.out.println("Cat 1 " + aCat);
         System.out.println("Cat 2 " + bCat + "\nyears old: " +  bCat.getAgeInYears(catsDate));
+
+
     }
         
 }

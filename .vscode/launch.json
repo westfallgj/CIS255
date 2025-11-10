@@ -3,6 +3,27 @@
   "configurations": [
     {
         "type": "java",
+        "name": "Project8Q3",
+        "request": "launch",
+        "mainClass": "Project8Q3",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "ExampleProject8Q3",
+        "request": "launch",
+        "mainClass": "ExampleProject8Q3",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "ExampleProject8Q2",
+        "request": "launch",
+        "mainClass": "ExampleProject8Q2",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
         "name": "Cat",
         "request": "launch",
         "mainClass": "Cat",

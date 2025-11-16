@@ -3,6 +3,20 @@
   "configurations": [
     {
         "type": "java",
+        "name": "HmWk12",
+        "request": "launch",
+        "mainClass": "HmWk12",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
+        "name": "ExampleHwWk12",
+        "request": "launch",
+        "mainClass": "ExampleHwWk12",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
         "name": "Project8Q3",
         "request": "launch",
         "mainClass": "Project8Q3",

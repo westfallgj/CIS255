@@ -2,9 +2,9 @@
 * George Westfall
 * CIS255
 * File: Television.java
-
-Write a Java object class Television with the member variables (fields) brand (string), type (string), and screenSize (integer). Create an empty constructor and overload that constructor and have it accept values for each member variable. There should be manipulator (setter) and accessor
-(getter) methods for each member variable. Ensure the Television object has a toString() method.
+*
+* Given in class
+*
 */
 
 public class Television {
@@ -16,9 +16,8 @@ public class Television {
     public Television()  {
     }
 
-    public Television(String brand, String type, int screenSize)  {
+    public Television(String brand, int screenSize)  {
         this.brand = brand;
-        this.type = type;
         this.screenSize = screenSize;
     }
 
@@ -30,20 +29,16 @@ public class Television {
         return this.brand;
     }
 
-    public void setType(String type)  {
-        this.type = type;
-    }
-
-    public String getType()  {
-        return this.type;
-    }
-
     public void setScreenSize(int screenSize)  {
         this.screenSize = screenSize;
     }
 
     public int getScreenSize()  {
         return this.screenSize;
+    }
+
+    public void turnOn()  {
+        System.out.println("Turning on...");
     }
 
     public String toString()  {
@@ -54,21 +49,6 @@ public class Television {
         buffer.append("\nscreenSize: " + screenSize);
 
         return buffer.toString();
-    }
-    public static void main(String[] args)  {
-
-        Television aTV = new Television();
-        
-        aTV.setBrand("Panasonic");
-        aTV.setType("HD");
-        aTV.setScreenSize(65);
-
-        System.out.println("TV 1 " + aTV);
-        System.out.println();
-
-        Television bTV = new Television("Sony", "USD", 72);
-        System.out.println("TV 2 " + bTV);
-
     }
 
 }

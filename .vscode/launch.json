@@ -3,6 +3,13 @@
   "configurations": [
     {
         "type": "java",
+        "name": "HmWk14",
+        "request": "launch",
+        "mainClass": "HmWk14",
+        "projectName": "CIS255_6a18dd83"
+    },
+    {
+        "type": "java",
         "name": "HmWk13",
         "request": "launch",
         "mainClass": "HmWk13",
